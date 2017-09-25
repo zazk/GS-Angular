@@ -1,6 +1,7 @@
 # Gsangular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.
+Based on EggHead Course [Get Started with Angular](https://egghead.io/courses/get-started-with-angular)
 
 ## Development server
 

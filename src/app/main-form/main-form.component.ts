@@ -10,7 +10,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
     (mouseup)="isMouseDown = false"
     (mouseleave)="isMouseDown = false"
     >
-    <button (click)="update.emit({text:message})">Update</button>
+    <button class="white bg-black" (click)="update.emit({text:message})">Update</button>
   `,
   styles: [
     `

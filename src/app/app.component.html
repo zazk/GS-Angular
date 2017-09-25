@@ -4,9 +4,9 @@
   <hr>
   <ul>
     <li *ngFor="let msg of mail.messages">
-      {{msg}}
+      {{msg.text}}
     </li>
   </ul>
-  <app-main-form *ngFor="let msg of mail.messages" [message]="msg" (update)="onUpdate($event)">
+  <app-main-form *ngFor="let msg of mail.messages" [message]="msg.text" (update)="onUpdate(msg.id,$event.text)">
   </app-main-form>
 </div>

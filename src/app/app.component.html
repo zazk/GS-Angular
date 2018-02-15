@@ -11,6 +11,9 @@
       {{msg.text}}
     </li>
   </ul>
+  <mat-toolbar color="primary">
+    Creating Awesome Components with Material
+  </mat-toolbar>
   <app-main-form *ngFor="let msg of mail.messages" [message]="msg.text" (update)="onUpdate(msg.id,$event.text)">
   </app-main-form>
 </div>
